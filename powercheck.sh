@@ -1,6 +1,7 @@
 # !/bin/bash
 # Runs every 5 minutes via cron
-# Under Ubuntu 16.04; uses the "powerpanel" package
+# Under Ubuntu 16.04; uses the "powerpanel" package for CyberPower UPSs
+# https://www.cyberpowersystems.com/products/software/pppe-linux-software
 # Checks the status output for "utility voltage" from a UPS attached via USB
 # If the utility voltage is 0, it connects via ssh to the vSphere host vhost1 and shuts it down
 
